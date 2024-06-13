@@ -60,7 +60,7 @@ A Python script to capture full-page screenshots of multiple URLs using Selenium
 2. **Run the script with an explicit temporary directory to retain your firefox profile capturing:**
 
     ```bash
-    TMPDIR=/path/to/tempdir python screenshot.py urls.txt screenshots 10 --profile /path/to/firefox/profile --headless
+    TMPDIR=/path/to/tempdir python batch_screenshot.py urls.txt screenshots 10 --profile /path/to/firefox/profile --headless
     ```
 
 ### Explanation
